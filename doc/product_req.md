@@ -53,4 +53,4 @@ Develop a model that can classify and price the incoming real estate so that it 
 
 ## Feasibility
 
-We have a dataset of labeled real estate from various trusted sources. We'll need to assess if it has the necessary categories to meet our objectives.
+We have a [dataset](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/overview) of labeled real estate from various trusted sources. We'll need to assess if it has the necessary categories to meet our objectives.
