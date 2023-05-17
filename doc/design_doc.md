@@ -25,3 +25,10 @@
  'Floating Village Residential',
   ...
  'other']
+
+## Evaluation
+
+### Metrics
+
+We want to be able to classify incoming data with high precision to display them properly. For the projects that we categorize as 'other', we can recall any misclassified real estate using manual labeling workflows. We may also want to evaluate performance for specific classes or slices of data.
+
