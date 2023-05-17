@@ -32,3 +32,20 @@
 
 We want to be able to classify incoming data with high precision to display them properly. For the projects that we categorize as 'other', we can recall any misclassified real estate using manual labeling workflows. We may also want to evaluate performance for specific classes or slices of data.
 
+### Offline evaluation
+
+We'll be using the historical dataset for offline evaluation. We'll also be creating slices of data that we want to evaluate in isolation.
+
+### Online evaluation
+
+Online evaluation ensures that our model continues to perform well in production and can be performed using labels or, in the event we don't readily have labels, proxy signals.
+
+ - Manually label a subset of incoming data to evaluate periodically. 
+ - Asking the initial set of users viewing a newly categorized content if it's correctly classified. 
+ - Allow users to report misclassified content by our model.
+
+It's important that we measure real-time performance before committing to replace our existing version of the system.
+
+ - Internal canary rollout, monitoring for proxy/actual performance, etc. 
+ - Rollout to the larger internal team for more feedback. 
+ - A/B rollout to a subset of the population to better understand UX, utility, etc.
