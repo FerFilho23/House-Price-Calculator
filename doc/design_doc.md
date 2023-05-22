@@ -49,3 +49,22 @@ It's important that we measure real-time performance before committing to replac
  - Internal canary rollout, monitoring for proxy/actual performance, etc. 
  - Rollout to the larger internal team for more feedback. 
  - A/B rollout to a subset of the population to better understand UX, utility, etc.
+
+## Modeling
+
+While the specific methodology we employ can differ based on the problem, there are core principles we always want to follow:
+
+ - End-to-end utility: the end result from every iteration should deliver minimum end-to-end utility so that we can benchmark iterations against each other and plug-and-play with the system.
+ - Manual before ML: incorporate deterministic components where we define the rules before using probabilistic ones that infer rules from data → baselines.
+ - Augment vs. automate: allow the system to supplement the decision making process as opposed to making the final decision.
+ - Internal vs. external: not all early releases have to be end-user facing. We can use early versions for internal validation, feedback, data collection, etc.
+ - Thorough: every approach needs to be well tested (code, data + models) and evaluated, so we can objectively benchmark different approaches.
+
+#### v1: creating a gold-standard labeled dataset that is representative of the problem space.
+#### v2: rule-based text matching approaches to categorize real estate.
+#### v3: probabilistically predicting labels from content title and description.
+
+### Feedback 
+
+ - Enforce human-in-loop checks when there is low confidence in classifications.
+ - Allow users to report issues related to misclassification.
