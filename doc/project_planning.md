@@ -35,3 +35,12 @@
 | Trained model with high precision | Data scientist                            | Labeled dataset                                          | Versioned, reproducible, test coverage report and evaluation results | In-progress |
 | Scalable service for inference    | ML engineer, DevOps engineer              | Versioned, reproducible, tested and evaluated model      | Stress tests to ensure autoscaling capabilities                      | Pending     |
 
+
+## Timeline
+
+### v1: classify incoming content (with high precision) for our customers to easily discover.
+
+- Exploration studies conducted by 06/10/2023
+- Pushed to dev for A/B testing by 09/01/2023
+- Pushed to staging with on-boarding hooks by 09/15/2023
+- Pushed to prod by 10/01/2023
