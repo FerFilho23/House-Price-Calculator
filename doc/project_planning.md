@@ -23,5 +23,15 @@
 ### Project: 
  - Responsible for iterative engagement with the product and engineering teams to ensure that the right product is being built and that it’s being built appropriately may include project managers, engineering managers, etc.
 
+## Deliverables
 
+| Objective                                                                                 | Priority | Release | Status       |
+|-------------------------------------------------------------------------------------------|----------|---------|--------------|
+| Classify incoming real estate (with high precision) for our customers to easily discover. | High     | v1      | In-progress  |
+
+| Deliverable                       | Contributors                              | Dependencies                                             | Acceptance criteria                                                  | Status      |
+|-----------------------------------|-------------------------------------------|----------------------------------------------------------|----------------------------------------------------------------------|-------------|
+| Labeled dataset for training      | Project DRI, labeling team, data engineer | Access to location of real estate with relevant metadata | Validation of ground-truth labels                                    | Complete    |
+| Trained model with high precision | Data scientist                            | Labeled dataset                                          | Versioned, reproducible, test coverage report and evaluation results | In-progress |
+| Scalable service for inference    | ML engineer, DevOps engineer              | Versioned, reproducible, tested and evaluated model      | Stress tests to ensure autoscaling capabilities                      | Pending     |
 
