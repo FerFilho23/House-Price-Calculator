@@ -1,4 +1,4 @@
-# House Price Prediction App
+# House Price Calculator App
 
 ## Stack
 
