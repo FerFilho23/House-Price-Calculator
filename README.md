@@ -10,4 +10,8 @@
 
 ## References
 
+[House Price Prediction using Flask](https://techyscientists.blogspot.com/2021/07/house-price-prediction-using-flask.html)
+
+[House Price Prediction using Machine Learning in Python](https://www.geeksforgeeks.org/house-price-prediction-using-machine-learning-in-python/)
+
 [Hands-on Machine Learning with Scikit-Learn, Keras and TensorFlow:](https://www.amazon.com.br/gp/product/B09H13N8FN/ref=ppx_yo_dt_b_d_asin_title_351_o00?ie=UTF8&psc=1)
